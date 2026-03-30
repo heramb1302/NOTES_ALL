@@ -1,0 +1,60 @@
+/* Save this as rainbow-theme.css in your .obsidain/snippets folder */
+
+:root {
+    /* Core Rainbow Palette */
+    --red: #ff5f5f;
+    --orange: #ffbd5b;
+    --yellow: #ffee80;
+    --green: #81ffad;
+    --blue: #70d6ff;
+    --purple: #af87ff;
+    --pink: #ff85e4;
+
+    /* Overriding Obsidian UI Colors */
+    --accent-h: 280; /* Purple-ish base */
+    --accent-s: 75%;
+    --accent-v: 90%;
+
+    /* Background Gradient (Dark Mode Optimized) */
+    --background-primary: #1a1a1a;
+    --background-secondary: #121212;
+}
+
+/* 1. Rainbow Titles (H1 - H6) */
+.markdown-rendered h1, .cm-header-1 { color: var(--red) !important; }
+.markdown-rendered h2, .cm-header-2 { color: var(--orange) !important; }
+.markdown-rendered h3, .cm-header-3 { color: var(--yellow) !important; }
+.markdown-rendered h4, .cm-header-4 { color: var(--green) !important; }
+.markdown-rendered h5, .cm-header-5 { color: var(--blue) !important; }
+.markdown-rendered h6, .cm-header-6 { color: var(--purple) !important; }
+
+/* 2. Rainbow Title Bar */
+.titlebar {
+    background: linear-gradient(90deg,
+        rgba(255, 95, 95, 0.2),
+        rgba(129, 255, 173, 0.2),
+        rgba(112, 214, 255, 0.2)) !important;
+}
+
+/* 3. Colorful Bold and Italic text */
+strong { color: var(--pink); }
+em { color: var(--blue); }
+
+/* 4. Rainbow Checkboxes */
+.task-list-item-checkbox:checked {
+    background-color: var(--green) !important;
+    border-color: var(--green) !important;
+}
+
+/* 5. Rainbow Cursor & Selection */
+.cm-cursor { border-left: 2px solid var(--yellow) !important; }
+.cm-selectionBackground, .selection {
+    background-color: rgba(175, 135, 255, 0.3) !important;
+}
+
+/* 6. Active Tab Rainbow Border */
+.workspace-tab-header.is-active {
+    border-bottom: 3px solid transparent;
+    border-image: linear-gradient(90deg, var(--red), var(--orange), var(--yellow), var(--green), var(--blue), var(--purple));
+    border-image-slice: 1;
+}
