@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React19/23 Pure Components.md",
+                "file": "React19/24 Derived States in react.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "23 Pure Components"
+              "title": "24 Derived States in react"
             }
           }
         ]
@@ -207,6 +207,7 @@
   "active": "ebf37ffbcb0bd9ef",
   "lastOpenFiles": [
     "React19/23 Pure Components.md",
+    "React19/24 Derived States in react.md",
     "React19/22 useFormStatus Hook in React JS.md",
     "React19/22 ForwardRef in React.md",
     "React19/21 Pass Function in Component as Props.md",
@@ -239,7 +240,6 @@
     "React19/02 Sarting with Component.md",
     "Pasted image 20260326124702.png",
     "React19/09 Reuse Component.md",
-    "React19/08 Loops.md",
     "React19/Untitled",
     "Pasted image 20260315121601.png",
     "React19",
