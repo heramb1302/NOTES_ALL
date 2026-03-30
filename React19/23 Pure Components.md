@@ -8,4 +8,4 @@
 - Example of impure component (avoid)
     
 - Example of pure component
-Hell
+- NEW LINE
