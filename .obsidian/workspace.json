@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React19/27 Updating Objects in State.md",
+                "file": "AWS/02 IAM.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "27 Updating Objects in State"
+              "title": "02 IAM"
             }
           }
         ]
@@ -206,8 +206,10 @@
   },
   "active": "ebf37ffbcb0bd9ef",
   "lastOpenFiles": [
-    "React19/26 Updating Objects in State.md",
+    "AWS/01 Introduction.md",
+    "AWS/02 IAM.md",
     "React19/27 Updating Objects in State.md",
+    "React19/26 Updating Objects in State.md",
     "React19/25  Lifting State Up in React JS.md",
     "2026-W13.md",
     "2026-03-26.md",
@@ -234,8 +236,6 @@
     "React19/12 HOOKS.md",
     "React19/06 Checkbox.md",
     "Daily/2026-03-26.md",
-    "AWS/01 Introduction.md",
-    "Templates/Daily Note {{date}}.md",
     "Untitled",
     "Templates",
     "Daily",
