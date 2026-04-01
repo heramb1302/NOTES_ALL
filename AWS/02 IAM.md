@@ -61,3 +61,65 @@ This is where the user "inherits" the EC2 and VPC permissions you set up earlier
 3. **Important:** On the final screen, click **Download .csv** or copy the **Console sign-in URL**, **Username**, and **Password**.
     
     > **Note:** This is the only time you will see the password. If you miss this, you'll have to reset it later.
+    
+# Steps For role:
+
+## **Step 1: Start Role Creation**
+
+1. Log in to the **AWS Management Console**.
+    
+2. Navigate to the **IAM Dashboard**.
+    
+3. In the left navigation pane, click on **Roles**.
+    
+4. Click the **Create role** button.
+   
+## **Step 2: Select Trusted Entity**
+
+This tells AWS _who_ or _what_ is allowed to use this role.
+
+1. **Trusted entity type:** Select **AWS service** (this is the most common use case, such as allowing an EC2 instance to talk to S3).
+    
+2. **Service or use case:** From the dropdown or list, select the service that will use the role:
+    
+    - _Example:_ Select **EC2**.
+        
+3. Click **Next**.\
+
+
+## **Step 3: Add Permissions**
+
+Just like with your User Group, you decide what this role can actually do.
+
+1. In the **Permissions policies** search box, find the policies you want.
+    
+    - _Example:_ Search for `AmazonS3ReadOnlyAccess`.
+        
+2. Check the box next to the policy.
+    
+3. Click **Next**.
+
+
+## **Step 4: Name, Review, and Create**
+
+1. **Role name:** Give it a clear name (e.g., `EC2-S3-ReadOnly-Role`).
+    
+2. **Description:** Briefly explain what it does (e.g., "Allows EC2 instances to read files from S3").
+    
+3. **Step 1: Select trusted entities (Review):** Ensure the "Trust Policy" JSON looks correct (it usually defaults to the service you picked in Step 2).
+    
+4. Click **Create role**.
+
+## **Step 5: Attach the Role (Important)**
+
+A role does nothing until you "give" it to a resource. For example, if you created this for an EC2 instance:
+
+1. Go to the **EC2 Dashboard**.
+    
+2. Select your **Instance**.
+    
+3. Click **Actions** > **Security** > **Modify IAM role**.
+    
+4. Select the role you just created from the dropdown.
+    
+5. Click **Update IAM role**.

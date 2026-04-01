@@ -206,8 +206,9 @@
   },
   "active": "ebf37ffbcb0bd9ef",
   "lastOpenFiles": [
-    "AWS/01 Introduction.md",
+    "AWS/03 EC2.md",
     "AWS/02 IAM.md",
+    "AWS/01 Introduction.md",
     "React19/27 Updating Objects in State.md",
     "React19/26 Updating Objects in State.md",
     "React19/25  Lifting State Up in React JS.md",
@@ -235,7 +236,6 @@
     "React19/11 Nested Looping.md",
     "React19/12 HOOKS.md",
     "React19/06 Checkbox.md",
-    "Daily/2026-03-26.md",
     "Untitled",
     "Templates",
     "Daily",
