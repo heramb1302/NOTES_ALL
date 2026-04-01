@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/02 IAM.md",
+                "file": "AWS/04 S3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02 IAM"
+              "title": "04 S3"
             }
           }
         ]
@@ -207,6 +207,7 @@
   "active": "ebf37ffbcb0bd9ef",
   "lastOpenFiles": [
     "AWS/03 EC2.md",
+    "AWS/04 S3.md",
     "AWS/02 IAM.md",
     "AWS/01 Introduction.md",
     "React19/27 Updating Objects in State.md",
@@ -235,7 +236,6 @@
     "React19/13 useEffect Basic.md",
     "React19/11 Nested Looping.md",
     "React19/12 HOOKS.md",
-    "React19/06 Checkbox.md",
     "Untitled",
     "Templates",
     "Daily",
