@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "83aeaf7165f285f2",
+        "id": "d554c64a52f2a5fe",
         "type": "tabs",
         "children": [
           {
-            "id": "ebf37ffbcb0bd9ef",
+            "id": "46c0dbb7c70612a1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AWS/04 S3.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "04 S3"
+              "title": "New tab"
             }
           }
         ]
@@ -204,13 +200,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ebf37ffbcb0bd9ef",
+  "active": "1ed1b8d1760f0a36",
   "lastOpenFiles": [
-    "DATA_ANALYTICS",
-    "AWS/03 EC2.md",
-    "AWS/04 S3.md",
-    "AWS/02 IAM.md",
+    "Pasted image 20260402141215.png",
     "AWS/01 Introduction.md",
+    "AWS/07 Elastic Network Interface.md",
+    "AWS/06 AMI (Amazon Machine Image).md",
+    "Pasted image 20260402135903.png",
+    "Pasted image 20260402135732.png",
+    "Pasted image 20260402135646.png",
+    "AWS/03 EC2.md",
+    "AWS/05 RDS.md",
+    "AWS/04 S3.md",
+    "DATA_ANALYTICS",
+    "AWS/02 IAM.md",
     "React19/27 Updating Objects in State.md",
     "React19/26 Updating Objects in State.md",
     "React19/25  Lifting State Up in React JS.md",
@@ -233,9 +236,6 @@
     "Untitled 1",
     "React19/15 Component Life Cycle.md",
     "Pasted image 20260326155349.png",
-    "React19/14 useEffect with Props.md",
-    "React19/13 useEffect Basic.md",
-    "React19/11 Nested Looping.md",
     "Templates",
     "Daily",
     "Pasted image 20260315193703.png",
