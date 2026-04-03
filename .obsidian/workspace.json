@@ -11,10 +11,14 @@
             "id": "46c0dbb7c70612a1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "AWS/08 EBS.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "08 EBS"
             }
           }
         ]
@@ -200,11 +204,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1ed1b8d1760f0a36",
+  "active": "46c0dbb7c70612a1",
   "lastOpenFiles": [
+    "Pasted image 20260403122402.png",
+    "Pasted image 20260403122235.png",
+    "Pasted image 20260403122201.png",
+    "AWS/08 EBS.md",
+    "AWS/07 Elastic Network Interface.md",
     "Pasted image 20260402141215.png",
     "AWS/01 Introduction.md",
-    "AWS/07 Elastic Network Interface.md",
     "AWS/06 AMI (Amazon Machine Image).md",
     "Pasted image 20260402135903.png",
     "Pasted image 20260402135732.png",
@@ -234,7 +242,6 @@
     "React19/16 Styling react With Css.md",
     "Untitled.base",
     "Untitled 1",
-    "React19/15 Component Life Cycle.md",
     "Pasted image 20260326155349.png",
     "Templates",
     "Daily",
