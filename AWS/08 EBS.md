@@ -130,4 +130,5 @@ _Use Cases:_ This process is essential for Disaster Recovery (having backups in 
 - If your original EBS volume (and its snapshot) was unencrypted, you have the option to apply encryption _during_ the copy process.
     
 - The resulting copied snapshot in the new region will be encrypted, and any volumes created from it will also be encrypted, providing an easy way to secure previously unencrypted data.
+--------------------------------------------------------------
 
