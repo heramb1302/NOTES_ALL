@@ -134,4 +134,160 @@ _Use Cases:_ This process is essential for Disaster Recovery (having backups in 
 
 Line 
 --------------------------------------------------------------
+Here is the complete, step-by-step process for creating an EBS (Elastic Block Store) volume in AWS, attaching it to your EC2 instance, and configuring it inside Ubuntu.
 
+
+### Phase 1: Create the Volume in AWS
+
+_Note: Your volume and your EC2 instance **must** be in the exact same Availability Zone (e.g., `us-east-1a`)._
+
+1. Log in to the **AWS Management Console** and navigate to the **EC2 Dashboard**.
+    
+2. In the left-hand navigation pane, under **Elastic Block Store**, click on **Volumes**.
+    
+3. Click the **Create volume** button.
+    
+4. Configure the volume settings:
+    
+    - **Volume Type:** `General Purpose SSD (gp3)` is recommended for most workloads.
+        
+    - **Size:** Enter the desired size in GiB.
+        
+    - **Availability Zone:** Select the _exact same_ AZ where your Ubuntu instance is currently running.
+        
+5. Add any tags if needed (e.g., Name: DataVolume), then click **Create volume**.
+    
+
+### Phase 2: Attach the Volume to the EC2 Instance
+
+1. Back on the **Volumes** screen, select your newly created volume (its state should be "Available").
+    
+2. Click the **Actions** dropdown menu at the top right and select **Attach volume**.
+    
+3. Click into the **Instance** search box and select your running Ubuntu EC2 instance.
+    
+4. AWS will suggest a **Device name** (usually `/dev/sdf`). You can leave this as default.
+    
+    - _Note: Newer instance types use NVMe, so Ubuntu might rename this internally to something like `/dev/nvme1n1` or `/dev/xvdf`._
+        
+5. Click **Attach volume**.
+
+
+### Phase 3: Format and Mount the Volume in Ubuntu
+
+Now you need to configure the operating system to actually use the raw disk.
+
+1. **SSH into your Ubuntu instance:**
+    
+    Bash
+    
+    ```
+    ssh -i your-key.pem ubuntu@your-ec2-ip
+    ```
+    
+2. **Identify the attached volume:** Run the following command to list all available block devices:
+    
+    Bash
+    
+    ```
+    lsblk
+    ```
+    
+    _Look for a disk with the size you just created that doesn't have any partitions or mount points (e.g., `xvdf` or `nvme1n1`). We will use `/dev/xvdf` for these examples, but **replace it with your actual device name**._
+    
+3. **Check if the volume has a file system:**
+    
+    Bash
+    
+    ```
+    sudo file -s /dev/xvdf
+    ```
+    
+    - If the output says `data`, it is an empty volume and needs to be formatted.
+        
+    - If the output shows filesystem details (like `Linux rev 1.0 ext4`), **do not format it**, or you will wipe existing data.
+        
+4. **Format the volume (Only if it is new/empty):** Create an `ext4` file system on the disk:
+    
+    Bash
+    
+    ```
+    sudo mkfs -t ext4 /dev/xvdf
+    ```
+    
+5. **Create a mount point:** Create a directory where you want to access the volume. For example, a directory named `/data`:
+    
+    Bash
+    
+    ```
+    sudo mkdir /data
+    ```
+    
+6. **Mount the volume manually:**
+    
+    Bash
+    
+    ```
+    sudo mount /dev/xvdf /data
+    ```
+    
+    Verify it successfully mounted by checking your disk space:
+    
+    Bash
+    
+    ```
+    df -h
+    ```
+    
+
+---
+
+### Phase 4: Make the Mount Permanent (Auto-Mount on Reboot)
+
+If you reboot your instance right now, the volume will unmount. You need to add it to the `/etc/fstab` file to make it permanent.
+
+1. **Find the UUID of your new volume:**
+    
+    Bash
+    
+    ```
+    sudo blkid
+    ```
+    
+    Copy the `UUID` string for your device (e.g., `UUID="e5b12a87-1234-5678-abcd-e5b12a87abcd"`).
+    
+2. **Backup your fstab file:** _Crucial step: A broken fstab file can prevent your instance from booting._
+    
+    Bash
+    
+    ```
+    sudo cp /etc/fstab /etc/fstab.backup
+    ```
+    
+3. **Edit the fstab file:**
+    
+    Bash
+    
+    ```
+    sudo nano /etc/fstab
+    ```
+    
+4. **Add the mount configuration:** Add a new line at the bottom of the file using the UUID you copied, the mount point, the file system type, and default options:
+    
+    Plaintext
+    
+    ```
+    UUID=your-copied-uuid  /data  ext4  defaults,nofail  0  2
+    ```
+    
+    _(The `nofail` option ensures your EC2 instance will still boot even if the volume is ever detached)._
+    
+5. **Save and exit:** If using Nano, press `Ctrl+O` to save, `Enter` to confirm, and `Ctrl+X` to exit.
+    
+6. **Verify fstab is correct:** Run this command to test your configuration. If it returns no errors, you are completely set up.
+    
+    Bash
+    
+    ```
+    sudo mount -a
+    ```
