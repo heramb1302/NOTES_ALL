@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "d554c64a52f2a5fe",
+        "id": "a4229397681d6fa8",
         "type": "tabs",
         "children": [
           {
-            "id": "46c0dbb7c70612a1",
+            "id": "92c9e044782413dd",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "split-diff-view",
               "state": {
-                "file": "AWS/08 EBS.md",
-                "mode": "source",
-                "source": false
+                "aFile": ".obsidian/workspace.json",
+                "bFile": ".obsidian/workspace.json",
+                "aRef": ""
               },
-              "icon": "lucide-file",
-              "title": "08 EBS"
+              "icon": "diff",
+              "title": "Diff: workspace.json  (Working Tree)"
             }
           }
         ]
@@ -204,12 +204,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "46c0dbb7c70612a1",
+  "active": "92c9e044782413dd",
   "lastOpenFiles": [
+    "DATA_ANALYTICS/01NUMPY",
+    "AWS/08 EBS.md",
     "Pasted image 20260403122402.png",
     "Pasted image 20260403122235.png",
     "Pasted image 20260403122201.png",
-    "AWS/08 EBS.md",
     "AWS/07 Elastic Network Interface.md",
     "Pasted image 20260402141215.png",
     "AWS/01 Introduction.md",
@@ -248,7 +249,6 @@
     "Pasted image 20260315193703.png",
     "Pasted image 20260326124702.png",
     "React19/Untitled",
-    "Pasted image 20260315121601.png",
     "React19",
     "AWS"
   ]
