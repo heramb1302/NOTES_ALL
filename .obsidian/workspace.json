@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AWS/11 Regions.md",
+                "file": "AWS/11 Auto Scaling.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "11 Regions"
+              "title": "11 Auto Scaling"
             }
           }
         ]
@@ -206,18 +206,19 @@
   },
   "active": "55e1f50973e68455",
   "lastOpenFiles": [
-    "AWS/10 Traffic management.md",
-    "AWS/11 Regions.md",
-    "Pasted image 20260415194829.png",
-    "Pasted image 20260415194812.png",
-    "Pasted image 20260415190834.png",
-    "Pasted image 20260415190817.png",
-    "AWS/09 Elastic Load balancer.md",
-    "Pasted image 20260414182008.png",
-    "Pasted image 20260414181855.png",
-    "Pasted image 20260414181714.png",
-    "Pasted image 20260414181639.png",
+    "AWS/11 Auto Scaling.md",
     "Pasted image 20260414181535.png",
+    "Pasted image 20260414181639.png",
+    "Pasted image 20260414181714.png",
+    "Pasted image 20260414181855.png",
+    "Pasted image 20260414182008.png",
+    "Pasted image 20260415190817.png",
+    "Pasted image 20260415194812.png",
+    "Pasted image 20260415194829.png",
+    "2026-W13.md",
+    "AWS/10 Traffic management.md",
+    "Pasted image 20260415190834.png",
+    "AWS/09 Elastic Load balancer.md",
     "Pasted image 20260414181519.png",
     "09.md",
     "01.md",
@@ -241,12 +242,10 @@
     "React19/27 Updating Objects in State.md",
     "React19/26 Updating Objects in State.md",
     "React19/25  Lifting State Up in React JS.md",
-    "2026-W13.md",
     "2026-03-26.md",
     "React19/24 Derived States in react.md",
     "Untitled 2",
     "React19/23 Pure Components.md",
-    "React19/22 useFormStatus Hook in React JS.md",
     "Untitled.base",
     "Untitled 1",
     "Templates",
