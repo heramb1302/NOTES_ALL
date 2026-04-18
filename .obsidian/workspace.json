@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Django/06 DIRS.md",
+                "file": "Django/08 Static Files.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "06 DIRS"
+              "title": "08 Static Files"
             }
           }
         ]
@@ -206,8 +206,10 @@
   },
   "active": "a836bc6879a72e66",
   "lastOpenFiles": [
-    "Django/05 URL Tag.md",
+    "Django/07 Template Inheritance.md",
+    "Django/08 Static Files.md",
     "Django/06 DIRS.md",
+    "Django/05 URL Tag.md",
     "Django/04 Page For single post.md",
     "Django/03 Filters.md",
     "Django/02 Rendering Dictionary with CSS.md",
@@ -243,8 +245,6 @@
     "AWS/01 Introduction.md",
     "AWS/06 AMI (Amazon Machine Image).md",
     "AWS/03 EC2.md",
-    "AWS/05 RDS.md",
-    "AWS/04 S3.md",
     "DATA_ANALYTICS",
     "Untitled 2",
     "Untitled.base",
