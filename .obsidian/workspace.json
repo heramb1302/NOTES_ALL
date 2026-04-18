@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Django/02 Rendering Dictionary with CSS.md",
+                "file": "Django/06 DIRS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02 Rendering Dictionary with CSS"
+              "title": "06 DIRS"
             }
           }
         ]
@@ -206,8 +206,12 @@
   },
   "active": "a836bc6879a72e66",
   "lastOpenFiles": [
-    "Django/01 rendering Simple Html Page.md",
+    "Django/05 URL Tag.md",
+    "Django/06 DIRS.md",
+    "Django/04 Page For single post.md",
+    "Django/03 Filters.md",
     "Django/02 Rendering Dictionary with CSS.md",
+    "Django/01 rendering Simple Html Page.md",
     "AWS/13 VPC.md",
     "AWS/14 Router.md",
     "Pasted image 20260418105436.png",
@@ -242,10 +246,6 @@
     "AWS/05 RDS.md",
     "AWS/04 S3.md",
     "DATA_ANALYTICS",
-    "AWS/02 IAM.md",
-    "React19/27 Updating Objects in State.md",
-    "React19/26 Updating Objects in State.md",
-    "React19/25  Lifting State Up in React JS.md",
     "Untitled 2",
     "Untitled.base",
     "Untitled 1",
