@@ -39,3 +39,25 @@ path('post/', include('posts.urls')),
 
 Also add created app in Installed app list in settings.py file of the main  django app created.
 
+### 5. ***Rendering Dictionary/json :***
+```python
+  
+
+l1 = ['Heramb', 'Smit', 'Jain', 'Vipul', 'Ravi']
+
+def homepage(request):
+
+    return render(request, 'posts/home.html', {"name": "Heramb", 'list': l1})
+
+
+<!-- blog/posts/templates/posts/home.html modified -->
+<body>
+  <h1>Welcome {{ name }}</h1>
+  <ul>
+
+    {% for i in list %}
+    <li>{{ i }}</li>
+    {% endfor %}
+  </ul>
+</body>
+```
