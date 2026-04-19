@@ -11,10 +11,14 @@
             "id": "749081b93486dde1",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Django/ORM & Models/02 Models.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "02 Models"
             }
           }
         ]
@@ -200,8 +204,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7d32705bde2eef6b",
+  "active": "749081b93486dde1",
   "lastOpenFiles": [
+    "Pasted image 20260419150033.png",
+    "Pasted image 20260419150019.png",
+    "Pasted image 20260419145932.png",
+    "Pasted image 20260419145852.png",
+    "Pasted image 20260419145758.png",
+    "Django/ORM & Models/01 ORM.md",
+    "Django/ORM & Models/02 Models.md",
+    "Pasted image 20260419145650.png",
+    "Pasted image 20260419145238.png",
+    "Pasted image 20260419145151.png",
+    "Pasted image 20260419145122.png",
+    "Pasted image 20260419145105.png",
     "Django/BASICS/04 Page For single post.md",
     "Django/ORM & Models",
     "Django/BASICS/02 Rendering Dictionary with CSS.md",
@@ -216,17 +232,8 @@
     "AWS/13 VPC.md",
     "AWS/14 Router.md",
     "Pasted image 20260418105436.png",
-    "Pasted image 20260417190044.png",
-    "Pasted image 20260417182408.png",
     "AWS/12 SNS (Simple Notification Service).md",
     "AWS/11 Auto Scaling.md",
-    "Pasted image 20260414181535.png",
-    "Pasted image 20260414181639.png",
-    "Pasted image 20260414181714.png",
-    "Pasted image 20260414181855.png",
-    "Pasted image 20260414182008.png",
-    "Pasted image 20260415190817.png",
-    "Pasted image 20260415194812.png",
     "2026-W13.md",
     "AWS/10 Traffic management.md",
     "AWS/09 Elastic Load balancer.md",
@@ -240,8 +247,6 @@
     "Django",
     "desktop.ini",
     "DATA_ANALYTICS/01NUMPY",
-    "AWS/07 Elastic Network Interface.md",
-    "AWS/01 Introduction.md",
     "DATA_ANALYTICS",
     "Untitled 2",
     "Untitled.base",
