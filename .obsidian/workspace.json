@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "74eaa854c7e3caf9",
+        "id": "5a469b3433c19f9a",
         "type": "tabs",
         "children": [
           {
-            "id": "a836bc6879a72e66",
+            "id": "749081b93486dde1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Django/08 Static Files.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "08 Static Files"
+              "title": "New tab"
             }
           }
         ]
@@ -204,16 +200,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a836bc6879a72e66",
+  "active": "7d32705bde2eef6b",
   "lastOpenFiles": [
-    "Django/07 Template Inheritance.md",
-    "Django/08 Static Files.md",
-    "Django/06 DIRS.md",
-    "Django/05 URL Tag.md",
-    "Django/04 Page For single post.md",
-    "Django/03 Filters.md",
-    "Django/02 Rendering Dictionary with CSS.md",
-    "Django/01 rendering Simple Html Page.md",
+    "Django/BASICS/04 Page For single post.md",
+    "Django/ORM & Models",
+    "Django/BASICS/02 Rendering Dictionary with CSS.md",
+    "Django/BASICS/01 rendering Simple Html Page.md",
+    "Django/BASICS/09 Context Processors.md",
+    "Django/BASICS",
+    "Django/BASICS/08 Static Files.md",
+    "Django/BASICS/07 Template Inheritance.md",
+    "Django/BASICS/06 DIRS.md",
+    "Django/BASICS/05 URL Tag.md",
+    "Django/BASICS/03 Filters.md",
     "AWS/13 VPC.md",
     "AWS/14 Router.md",
     "Pasted image 20260418105436.png",
@@ -243,14 +242,10 @@
     "DATA_ANALYTICS/01NUMPY",
     "AWS/07 Elastic Network Interface.md",
     "AWS/01 Introduction.md",
-    "AWS/06 AMI (Amazon Machine Image).md",
-    "AWS/03 EC2.md",
     "DATA_ANALYTICS",
     "Untitled 2",
     "Untitled.base",
     "Untitled 1",
-    "Templates",
-    "Daily",
-    "React19/Untitled"
+    "Templates"
   ]
 }
