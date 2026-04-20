@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Django/ORM & Models/04 Cerating Model.md",
+                "file": "Django/ORM & Models/08 AND OR and More OPERATORS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04 Cerating Model"
+              "title": "08 AND OR and More OPERATORS"
             }
           }
         ]
@@ -206,20 +206,23 @@
   },
   "active": "749081b93486dde1",
   "lastOpenFiles": [
+    "Django/ORM & Models/07 QuerrySet API Methods.md",
+    "Django/ORM & Models/08 AND OR and More OPERATORS.md",
+    "Django/ORM & Models/05 Save and Create.md",
+    "Django/ORM & Models/06 QuerrySet API.md",
+    "Pasted image 20260420161007.png",
+    "Pasted image 20260420160740.png",
+    "Pasted image 20260420155439.png",
+    "Pasted image 20260420155427.png",
+    "Pasted image 20260420154827.png",
+    "Pasted image 20260420154805.png",
+    "Pasted image 20260420124426.png",
+    "Pasted image 20260420124415.png",
+    "Django/ORM & Models/04 Cerating Model.md",
     "Pasted image 20260419155606.png",
     "Pasted image 20260419155324.png",
-    "Pasted image 20260419155254.png",
-    "Pasted image 20260419154412.png",
-    "Pasted image 20260419154327.png",
-    "Pasted image 20260419154300.png",
     "Exten.md",
-    "Django/ORM & Models/04 Cerating Model.md",
     "Django/ORM & Models/02 Models.md",
-    "Pasted image 20260419150033.png",
-    "Pasted image 20260419150019.png",
-    "Pasted image 20260419145932.png",
-    "Pasted image 20260419145852.png",
-    "Pasted image 20260419145758.png",
     "Django/ORM & Models/01 ORM.md",
     "Django/BASICS/04 Page For single post.md",
     "Django/ORM & Models",
@@ -241,9 +244,6 @@
     "AWS/09 Elastic Load balancer.md",
     "09.md",
     "01.md",
-    "AWS/08 EBS.md",
-    "Untitled.md",
-    "WebScrapping.md",
     "Django",
     "desktop.ini",
     "DATA_ANALYTICS/01NUMPY",

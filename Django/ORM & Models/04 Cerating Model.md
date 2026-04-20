@@ -24,6 +24,7 @@ class Posts(models.Model):
 ***python .\manage.py makemigrations***
 ***python .\manage.py sqlmigrate models 0001***
 ***python .\manage.py migrate *** 
+***python .\manage.py showmigrations *** 
 
 
 ![[Pasted image 20260419155254.png]]
