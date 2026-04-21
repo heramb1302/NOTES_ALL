@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Django/ORM & Models/08 AND OR and More OPERATORS.md",
+                "file": "ML/Regression/01 Ridge And Lasso.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "08 AND OR and More OPERATORS"
+              "title": "01 Ridge And Lasso"
             }
           }
         ]
@@ -206,8 +206,12 @@
   },
   "active": "749081b93486dde1",
   "lastOpenFiles": [
-    "Django/ORM & Models/07 QuerrySet API Methods.md",
+    "Pasted image 20260420185516.png",
     "Django/ORM & Models/08 AND OR and More OPERATORS.md",
+    "ML/Regression/01 Ridge And Lasso.md",
+    "ML/Regression",
+    "ML",
+    "Django/ORM & Models/07 QuerrySet API Methods.md",
     "Django/ORM & Models/05 Save and Create.md",
     "Django/ORM & Models/06 QuerrySet API.md",
     "Pasted image 20260420161007.png",
@@ -242,15 +246,11 @@
     "2026-W13.md",
     "AWS/10 Traffic management.md",
     "AWS/09 Elastic Load balancer.md",
-    "09.md",
-    "01.md",
     "Django",
     "desktop.ini",
     "DATA_ANALYTICS/01NUMPY",
     "DATA_ANALYTICS",
     "Untitled 2",
-    "Untitled.base",
-    "Untitled 1",
-    "Templates"
+    "Untitled.base"
   ]
 }
