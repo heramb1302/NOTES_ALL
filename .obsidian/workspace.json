@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "5a469b3433c19f9a",
+        "id": "492d7a1857031989",
         "type": "tabs",
         "children": [
           {
-            "id": "749081b93486dde1",
+            "id": "42fab8ead841c1de",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Django/01_BASICS/03 Filters.md",
+                "file": "Django/07_Sessions/02_Modified session.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "03 Filters"
+              "title": "02_Modified session"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "d97820b047c946ef",
@@ -204,17 +204,42 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "749081b93486dde1",
+  "active": "42fab8ead841c1de",
   "lastOpenFiles": [
+    "Pasted image 20260505233433.png",
+    "Pasted image 20260505233328.png",
+    "Pasted image 20260505233322.png",
+    "Django/07_Sessions/01_Session Intro.md",
+    "Django/07_Sessions/02_Modified session.md",
+    "Django/07_Sessions/Untitled",
+    "Pasted image 20260505170344.png",
+    "Pasted image 20260505170318.png",
+    "Pasted image 20260505170306.png",
+    "Django/06_Middleware/03_Middleware_Hooks.md",
+    "Django/07_Sessions",
+    "Pasted image 20260505163304.png",
+    "Pasted image 20260505162847.png",
+    "Pasted image 20260505162822.png",
+    "Pasted image 20260505155521.png",
+    "Django/02_ORM & Models/05 Save and Create.md",
+    "Django/02_ORM & Models/04 Cerating Model.md",
+    "Django/02_ORM & Models/02 Models.md",
+    "Django/02_ORM & Models/01 ORM.md",
+    "Django/01_BASICS/06 DIRS.md",
+    "Django/01_BASICS/05 URL Tag.md",
+    "Django/01_BASICS/04 Page For single post.md",
+    "Django/01_BASICS/03 Filters.md",
     "Django/01_BASICS/02 Rendering Dictionary with CSS.md",
     "Django/01_BASICS/01 rendering Simple Html Page.md",
+    "DEEP_LEARNING/01_Intro.md",
+    "Pasted image 20260504235941.png",
+    "DEEP_LEARNING",
+    "Django/06_Middleware/02_Creating Cusrtom Middleware.md",
+    "Django/06_Middleware/01_Basic.md",
+    "Django/06_Middleware",
     "Django/05_Cookies In Django/03_Limitations of Cookie.md",
-    "Pasted image 20260430171529.png",
     "Django/05_Cookies In Django/02_Creting and Work with cookies.md",
     "Django/05_Cookies In Django/01_Introduction.md",
-    "Pasted image 20260430161227.png",
-    "Pasted image 20260430160951.png",
-    "Pasted image 20260430160740.png",
     "Django/04_Working With Forms/14_Fields and Exclude attribute.md",
     "Django/05_Cookies In Django",
     "Django/04_Working With Forms/13_Adding Validations in modelForm.md",
@@ -222,35 +247,10 @@
     "Django/04_Working With Forms/11_Giving lebels and attributes to ModelForm.md",
     "Django/04_Working With Forms/10_ModelForms.md",
     "Django/04_Working With Forms/08 CRUD USING DJANGO.md",
-    "Django/04_Working With Forms/07_Styling Error.md",
-    "Django/04_Working With Forms/06_Styling The django.md",
-    "Django/04_Working With Forms/05_Custom validation.md",
-    "Django/04_Working With Forms/05_Widgets In Django.md",
-    "Django/04_Working With Forms/04_Manually Render Form.md",
-    "Django/04_Working With Forms/03_Explore More In forms.md",
-    "Django/04_Working With Forms/02_Creating and Rendering Forms.md",
-    "Pasted image 20260425114955.png",
-    "Pasted image 20260425114915.png",
-    "Pasted image 20260425114339.png",
-    "Django/04_Working With Forms/01_Understanding Forms.md",
-    "Django/03_Admin Panel/01Admin Panel Intro.md",
-    "Django/02_ORM & Models/05 Save and Create.md",
-    "Django/02_ORM & Models/04 Cerating Model.md",
-    "Django/02_ORM & Models/02 Models.md",
-    "Django/02_ORM & Models/01 ORM.md",
-    "Pasted image 20260425100226.png",
-    "Pasted image 20260425100021.png",
-    "Pasted image 20260425095904.png",
     "Django/04_Working With Forms",
-    "Django/02_ORM & Models/16 Agregation.md",
     "Django/03_Admin Panel",
-    "Django/Untitled.md",
     "ML/Regression",
     "ML",
-    "Django/02_ORM & Models",
-    "Django/01_BASICS",
-    "Django",
-    "desktop.ini",
-    "DATA_ANALYTICS/01NUMPY"
+    "Django/02_ORM & Models"
   ]
 }
