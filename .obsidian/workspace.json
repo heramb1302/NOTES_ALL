@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "492d7a1857031989",
+        "id": "d260454d77c5cdd6",
         "type": "tabs",
         "children": [
           {
-            "id": "42fab8ead841c1de",
+            "id": "e1dd50584d51dd34",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Django/07_Sessions/02_Modified session.md",
+                "file": "Django/08_Authenticstion and Authorization/02_Implementing Authentication.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02_Modified session"
+              "title": "02_Implementing Authentication"
             }
           }
         ]
@@ -204,23 +204,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "42fab8ead841c1de",
+  "active": "e1dd50584d51dd34",
   "lastOpenFiles": [
+    "Django/08_Authenticstion and Authorization/01_Basics.md",
+    "Django/08_Authenticstion and Authorization/02_Implementing Authentication.md",
+    "Pasted image 20260506120312.png",
+    "Pasted image 20260506120243.png",
+    "Pasted image 20260506120107.png",
+    "Pasted image 20260506115945.png",
+    "Pasted image 20260506115930.png",
+    "Pasted image 20260506114744.png",
+    "Django/08_Authenticstion and Authorization",
+    "Django/07_Sessions/02_Modified session.md",
     "Pasted image 20260505233433.png",
     "Pasted image 20260505233328.png",
     "Pasted image 20260505233322.png",
     "Django/07_Sessions/01_Session Intro.md",
-    "Django/07_Sessions/02_Modified session.md",
     "Django/07_Sessions/Untitled",
     "Pasted image 20260505170344.png",
-    "Pasted image 20260505170318.png",
-    "Pasted image 20260505170306.png",
     "Django/06_Middleware/03_Middleware_Hooks.md",
     "Django/07_Sessions",
-    "Pasted image 20260505163304.png",
-    "Pasted image 20260505162847.png",
-    "Pasted image 20260505162822.png",
-    "Pasted image 20260505155521.png",
     "Django/02_ORM & Models/05 Save and Create.md",
     "Django/02_ORM & Models/04 Cerating Model.md",
     "Django/02_ORM & Models/02 Models.md",
@@ -232,7 +235,6 @@
     "Django/01_BASICS/02 Rendering Dictionary with CSS.md",
     "Django/01_BASICS/01 rendering Simple Html Page.md",
     "DEEP_LEARNING/01_Intro.md",
-    "Pasted image 20260504235941.png",
     "DEEP_LEARNING",
     "Django/06_Middleware/02_Creating Cusrtom Middleware.md",
     "Django/06_Middleware/01_Basic.md",
@@ -246,11 +248,9 @@
     "Django/04_Working With Forms/12_CRUD using ModelForm.md",
     "Django/04_Working With Forms/11_Giving lebels and attributes to ModelForm.md",
     "Django/04_Working With Forms/10_ModelForms.md",
-    "Django/04_Working With Forms/08 CRUD USING DJANGO.md",
     "Django/04_Working With Forms",
     "Django/03_Admin Panel",
     "ML/Regression",
-    "ML",
-    "Django/02_ORM & Models"
+    "ML"
   ]
 }
