@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Django/08_Authenticstion and Authorization/04_Creating Login Functionality.md",
+                "file": "Django/08_Authenticstion and Authorization/08_Implementing Logout.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "04_Creating Login Functionality"
+              "title": "08_Implementing Logout"
             }
           }
         ]
@@ -206,21 +206,25 @@
   },
   "active": "e1dd50584d51dd34",
   "lastOpenFiles": [
+    "Pasted image 20260508124917.png",
+    "Django/08_Authenticstion and Authorization/07_Authentication Data in templates.md",
+    "Django/08_Authenticstion and Authorization/08_Implementing Logout.md",
+    "Django/08_Authenticstion and Authorization/06_Limiting Access To Logged-In Users & Anonymous Users.md",
+    "Django/08_Authenticstion and Authorization/05_Customizing Authentication Form.md",
+    "Pasted image 20260507130305.png",
+    "Django/08_Authenticstion and Authorization/04_Creating Login Functionality.md",
     "Pasted image 20260507131537.png",
     "Pasted image 20260507131525.png",
     "Pasted image 20260507131014.png",
     "Pasted image 20260507130320.png",
-    "Pasted image 20260507130305.png",
     "Pasted image 20260507124617.png",
     "Django/08_Authenticstion and Authorization/03_Customizing user Creation Form.md",
-    "Django/08_Authenticstion and Authorization/04_Creating Login Functionality.md",
     "Django/08_Authenticstion and Authorization/02_Implementing Authentication.md",
     "Django/08_Authenticstion and Authorization/01_Basics.md",
     "Pasted image 20260506120312.png",
     "Pasted image 20260506120243.png",
     "Pasted image 20260506120107.png",
     "Pasted image 20260506115945.png",
-    "Pasted image 20260506115930.png",
     "Django/08_Authenticstion and Authorization",
     "Django/07_Sessions/02_Modified session.md",
     "Django/07_Sessions/01_Session Intro.md",
@@ -243,11 +247,7 @@
     "Django/06_Middleware/01_Basic.md",
     "Django/06_Middleware",
     "Django/05_Cookies In Django/03_Limitations of Cookie.md",
-    "Django/05_Cookies In Django/02_Creting and Work with cookies.md",
-    "Django/05_Cookies In Django/01_Introduction.md",
-    "Django/04_Working With Forms/14_Fields and Exclude attribute.md",
     "Django/05_Cookies In Django",
-    "Django/04_Working With Forms/13_Adding Validations in modelForm.md",
     "Django/04_Working With Forms",
     "Django/03_Admin Panel",
     "ML/Regression",
