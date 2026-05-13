@@ -14,3 +14,11 @@ if we try to delete the husband which having wife it will not delete the husband
 
 ![[Pasted image 20260513144001.png]]
 ![[Pasted image 20260513144013.png]]
+
+
+
+
+
+
+*husband = models.OneToOneField(Husband, on_delete=models.SET_NULL)*
+This will allow to delete the husband but wife remain in database and husband value for wife will set to Null.
