@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Django/10_Relationships_in_Django/02_on_delete.md",
+                "file": "Django/10_Relationships_in_Django/06_Understanding & Adding Many-To-Many.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "02_on_delete"
+              "title": "06_Understanding & Adding Many-To-Many"
             }
           }
         ]
@@ -206,8 +206,13 @@
   },
   "active": "09cb0e974de8a4ac",
   "lastOpenFiles": [
-    "Django/10_Relationships_in_Django/03_Querying Using Relationships.md",
+    "Pasted image 20260515163138.png",
+    "Django/10_Relationships_in_Django/05_Adding Many-To-One Field.md",
+    "Django/10_Relationships_in_Django/06_Understanding & Adding Many-To-Many.md",
+    "Pasted image 20260515160320.png",
+    "Django/10_Relationships_in_Django/04_Querying Using Relationships.md",
     "Django/10_Relationships_in_Django/02_on_delete.md",
+    "Django/10_Relationships_in_Django/03_Querying Using Relationships.md",
     "Pasted image 20260513144013.png",
     "Pasted image 20260513144001.png",
     "Pasted image 20260513143947.png",
@@ -233,7 +238,6 @@
     "Django/08_Authenticstion and Authorization/07_Authentication Data in templates.md",
     "Django/08_Authenticstion and Authorization/06_Limiting Access To Logged-In Users & Anonymous Users.md",
     "Django/08_Authenticstion and Authorization/05_Customizing Authentication Form.md",
-    "Pasted image 20260507130305.png",
     "Django/08_Authenticstion and Authorization/04_Creating Login Functionality.md",
     "Django/08_Authenticstion and Authorization/03_Customizing user Creation Form.md",
     "Django/08_Authenticstion and Authorization/02_Implementing Authentication.md",
@@ -246,10 +250,6 @@
     "Django/07_Sessions",
     "Django/02_ORM & Models/05 Save and Create.md",
     "Django/02_ORM & Models/04 Cerating Model.md",
-    "Django/02_ORM & Models/02 Models.md",
-    "Django/02_ORM & Models/01 ORM.md",
-    "Django/01_BASICS/06 DIRS.md",
-    "Django/01_BASICS/05 URL Tag.md",
     "DEEP_LEARNING",
     "Django/06_Middleware"
   ]
