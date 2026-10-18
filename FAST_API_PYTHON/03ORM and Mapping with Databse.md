@@ -170,3 +170,6 @@ session = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
 #bind=engine: This specifies the database engine that the session will be bound to. The engine is responsible for managing the connection to the database.
 ```
+
+***END OF THE SIMPLE FAST API in Python***
+
