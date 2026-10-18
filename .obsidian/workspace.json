@@ -206,8 +206,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "09cb0e974de8a4ac",
+  "active": "1ed1b8d1760f0a36",
   "lastOpenFiles": [
+    "DOCKER AND CICD",
     "Django/11_Handling File Uploadds/02_Serving the Files.md",
     "Django/11_Handling File Uploadds/03_Search feature.md",
     "Untitled 2.md",
@@ -250,7 +251,6 @@
     "Django/08_Authenticstion and Authorization/02_Implementing Authentication.md",
     "Django/08_Authenticstion and Authorization/01_Basics.md",
     "Django/08_Authenticstion and Authorization",
-    "Django/07_Sessions/02_Modified session.md",
     "Django/07_Sessions/Untitled",
     "Django/07_Sessions",
     "DEEP_LEARNING"
